@@ -1,0 +1,424 @@
+.preload-image {
+  width: 10px;
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+}
+
+
+.content {
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  width: inherit;
+}
+
+.footer p {
+  position: relative;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  
+  bottom: 0px;
+  display: block;
+  margin: auto;
+	line-height: 13px;
+	font-size: 10px;
+	color: #BFBFBF;
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  .sidebar {
+    width: 175px;
+    float: left;
+    position: fixed;
+    height: 100vh;
+  }
+  
+
+
+	.header-menu {
+  float: right;
+  list-style-type: none;
+  margin: 40px 40px 40px 40px;
+  font-size: 24px;
+}
+	
+	.vertical-menu {
+  margin-top: 20px;
+}
+
+
+	
+	.line {
+  display: block;
+  margin-top: 130px;
+  margin-left: 40px;
+}
+
+  .vertical {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    list-style-type: none;
+    line-height: 22px;
+    margin-top: 80px;
+  }
+  .logo {
+    width: 40px;
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .sidebar {
+    width: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    height: 140px;
+  }
+	
+	.header-menu {
+  display: none;
+}
+	
+	.divide {
+  float: clear;
+  height: 20px;
+  width: inherit;
+  margin-top: 20px;
+  font-family: Helvetica;
+}
+
+	
+	.line {
+  display: block;
+	opacity: 0;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+  .image-child {
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.15);
+    
+  }
+  .vertical {
+    text-decoration: none;
+    font-size: 18px;
+		margin-top: -20px;
+		margin-left: 20px;
+		border-left-style: outset;
+    border-left-width: thin;
+    list-style-position: inside;
+    border-left-color: grey;
+    margin-left: 30px;
+    font-weight: 600;
+    list-style-type: none;
+    line-height: 22px;
+  }
+  .content {
+    width: calc(100vw - 80px);
+    margin: 40px 40px 40px 40px;
+    position: relative;
+    display: block;
+    float: left;
+
+  }
+  .logo {
+    width: 40px;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+  }
+  .main-heading {
+    float: left;
+  }
+  .vertical {
+    float: left;
+    width: 190px;
+  }
+	
+	  .vertical-menu {
+    margin-top: 9px;
+		margin-bottom: 9px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .content {
+    width: 1200px;
+    float: right;
+    padding: 40px 20px 40px 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    width: 940px;
+    float: right;
+    padding: 40px 20px 40px 40px;
+  }
+  .logo {
+    width: 40px;
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+  }
+	  .image-child {
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.15);
+  }
+	
+	.divide {
+  float: clear;
+  height: 20px;
+  width: inherit;
+  margin-top: 80px;
+  font-family: Helvetica;
+}
+
+}
+
+@media (min-width: 651px) and (max-width: 1199px) {
+  .content {
+    width: calc(100vw - 270px);
+    float: right;
+    position: relative;
+    padding: 40px 20px 40px 40px;
+  }
+	
+	.divide {
+  float: clear;
+  height: 1px;
+  width: inherit;
+  margin-top: 80px;
+  font-family: Helvetica;
+}
+
+  .image-child {
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (max-width: 700px) {
+  .dark,
+  .horiz {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .child-left,
+  .child-right {
+    width: 99%;
+    float: left;
+    margin-right: 0px;
+    margin-top: 40px;
+  }
+  .image-child {
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (min-width: 800px) {
+  .child-left {
+    width: calc(50% - 25px);
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+
+  }
+  .child-right {
+    width: calc(50% - 25px);
+    border-width: 2px;
+    float: left;
+    margin-top: 40px;
+
+  }
+}
+
+
+
+.light,
+.vertical-menu {
+  color: #BFBFBF;
+}
+
+.dark,
+.horiz {
+  color: #1C1C1C;
+}
+
+.dark:hover,
+.horiz:hover,
+.horiz:active,
+.dark:hover {
+  color: #378BEC;
+}
+
+.no-arrow {
+  background: none;
+}
+
+.arrow {
+background: url(http://bindeman.bss.design/assets/img/arrow.svg) no-repeat 7px 7px transparent;
+}
+
+
+.horiz {
+  padding: 3px 0px 1px 45px;
+  margin: 0;
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+
+
+.download-button:hover {
+  color: #2C6CB6;
+  background: url(http://bindeman.bss.design/assets/img/download-dark.svg) no-repeat 7px 7px transparent;
+}
+
+.download-button:active {
+  color: blue;
+}
+
+.hero {
+  width: inherit;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.15);
+}
+
+.main-heading {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active {
+  color: #1C1C1C;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#header {
+  width: calc(100vw - 80px);
+  height: 80px;
+  display: block;
+  float: right;
+}
+
+
+
+
+/*START OF HERO HEADER CSS */
+body {
+  font-family: Helvetica;
+}
+
+.hero-title {
+  margin-top: 10px;
+}
+
+.title {
+  float: left;
+}
+
+.download-section {
+  float: right;
+  margin-top: 8px;
+  padding-right: 10px;
+  display: block;
+}
+
+.download-button {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Helvetica;
+  margin-left: 10px;
+  color: #378BEC;
+  margin-bottom: -10px;
+  padding: 6px 0px 0px 23px;
+  background: url(http://bindeman.bss.design/assets/img/download.svg) no-repeat 7px 7px transparent;
+}
+
+.template-name,
+h3 {
+  font-family: Helvetica;
+  margin-top: 0px;
+  font-size: 25px;
+  letter-spacing: -0.8px;
+}
+
+.template-id,
+h4 {
+  font-family: Courier;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: -18px;
+  color: #BFBFBF;
+}
+
+.file-info {
+  font-family: Helvetica;
+  color: #BFBFBF;
+  font-size: 12px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+/*END OF HERO HEADER CSS */
+.category-title {
+  font-family: Helvetica;
+  color: #1C1C1C;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.template-name-child,
+h3 {
+  font-family: Helvetica;
+  margin-top: 0px;
+  font-size: 18px;
+  letter-spacing: -0.8px;
+}
+
+.layout-info {
+  float: left;
+  margin-top: 8px;
+}
+
+
+
